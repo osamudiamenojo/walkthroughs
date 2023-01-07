@@ -53,7 +53,9 @@ def show_weather():
 
 show_weather()
 
-# This is the initial program, and the walkthrough shows how to modify this code.
-# At the end of the walkthrough this code will read and write to a json file.
+# This is the initial program. The walkthrough shows how to modify this code.
+# At the end of the walkthrough, this code will read and write to a json file.
+#
 # You can see the completed code after the walkthrough by going here,
+# https://github.com/kibo-programming-2-jan-23/walkthroughs/tree/main/show-weather-from-file/end
 
