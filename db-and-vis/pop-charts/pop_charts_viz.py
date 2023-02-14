@@ -1,8 +1,6 @@
 
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as pyplot
 from pop_charts_exploration import *
-
-# https://datatofish.com/plot-histogram-python/
 
 def getDurations():
     durations = []
@@ -17,8 +15,8 @@ def go():
     number_of_bins = 20
     durations = getDurations()
 
-    plt.hist(durations, bins=number_of_bins)
-    plt.show()
+    pyplot.hist(durations, bins=number_of_bins)
+    pyplot.show()
         
 if __name__ == '__main__':
     go()

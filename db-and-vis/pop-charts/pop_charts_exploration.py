@@ -31,10 +31,10 @@ class PopChartsExploration:
     def get_longest_song(self):
         result = (
             self.session.query(PopCharts)
-            .order_by(PopCharts.duration.desc())
+            .order_by(PopCharts.time_on_chart.asc())
             .first())
             
-        print(f'Found: {result.artist} - {result.name} {result.duration}')
+        print(f'Found: {result.artist} - {result.name} {result.duration} {result.num_likes}')
         
 
 if __name__ == '__main__':
